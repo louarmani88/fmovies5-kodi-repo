@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.fmovies5"
+       name="FMovies5 (Private)"
+       version="1.0.0"
+       provider-name="Luciano Armani">
+
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Kodi Plugin for FMovies5</summary>
+        <description>Private use only. Streams from fmovies5.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
